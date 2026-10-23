@@ -1,0 +1,1 @@
+{"name":"brilla-services","private":true,"type":"module","scripts":{"build":"node build.mjs","start":"node preview.mjs"}}

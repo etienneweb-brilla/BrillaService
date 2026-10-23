@@ -1,0 +1,26 @@
+/* Meaningful, shared iconography replaces decorative direction arrows. */
+.icon{width:22px;height:22px;display:inline-block;flex-shrink:0;vertical-align:middle}
+.inline-icon{width:16px;height:16px;margin-left:8px;vertical-align:-3px}
+.button>.icon{width:19px;height:19px;margin-left:0}
+.logo-crop{width:132px;height:46px;background:transparent;border-radius:0;overflow:visible}
+.logo-crop img{position:static;width:100%;height:100%;max-width:100%;object-fit:contain;filter:none}
+.service-symbol{width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:#e1e6d9;border-radius:12px;color:#4d5945;flex:none;transition:background .2s,color .2s}
+.service-symbol .icon{width:25px;height:25px}
+.service-card:hover .service-symbol{background:var(--orange);color:var(--ink)}
+.industry-link>.icon{width:23px;height:23px}
+.hero-badge>.icon{width:38px;height:38px;margin-top:8px}
+.tiny-spark{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.tiny-spark>.icon{width:40px;height:40px}
+.sector-strip>.icon{width:21px;height:21px;color:var(--orange)}
+.image-note>.icon{width:38px;height:38px;margin-left:16px;color:var(--orange)}
+.process-number>.icon{width:32px;height:32px;color:#c6cfbd}
+.round-link>.icon{width:44px;height:44px;stroke-width:1.5}
+.round-link:hover{transform:translateY(-3px)}
+.check-list li:before{content:'✓';color:#506344;font-weight:700}
+.location-mark{display:flex;align-items:center;gap:8px}
+.location-mark>.icon{width:18px;height:18px}
+.visual-bottom a>.icon{width:22px;height:22px}
+.footer-top a .inline-icon{width:13px;height:13px;margin-left:5px}
+.contact-grid>a>span:last-child .icon{width:20px;height:20px}
+@media(max-width:600px){.logo-crop{width:105px;height:37px}.tiny-spark>.icon{width:32px;height:32px}.hero-badge>.icon{width:31px;height:31px;margin-top:7px}.round-link>.icon{width:26px;height:26px}.sector-strip>.icon{width:18px;height:18px}.service-symbol{width:40px;height:40px;border-radius:10px}.service-symbol .icon{width:23px;height:23px}.industry-link>.icon{width:20px;height:20px}.process-number>.icon{width:28px;height:28px}}
+@media(prefers-reduced-motion:reduce){.service-symbol,.round-link{transition:none}}
